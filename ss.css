@@ -1,0 +1,285 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+h1{
+background-image: url(images/header_image.jpg);
+background-position: center;
+margin-bottom: 0;
+
+text-align: center;
+color: #FFFFFF;
+font-style: oblique;
+line-height: 200%;
+font-family: times new roman;
+}
+
+nav{
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px 0px 0px 20px ;
+overflow: hidden;
+background-color: #333;
+}
+
+
+nav li {
+ float: left;
+}
+
+nav a {
+display: block;
+color: #FFFFFF;
+text-align: center;
+padding: 14px 105px;
+text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+#mountains{
+margin-top: 0px;
+background-image: url(images/mountains.jpg);
+height: 300px;
+width: 700px;
+float: left;
+background-repeat: no-repeat;
+}
+
+#language{
+margin-top: 0px;
+margin-left: 50px;
+margin-right: -80px;
+background-image: url(images/language.jpg);
+height: 430px;
+width: 700px;
+float: left;
+background-repeat: no-repeat;
+}
+
+#paragraph{
+font-size: 18px;
+line-height: 1.6;
+margin-right: 20px;
+}
+
+
+.layout {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+#haleem {
+
+margin-top: 0px;
+height: 300px;
+width: 420px;
+background-image: url(images/haleem.jpg);
+background-position: center;
+background-size: 300px 300px;
+object-fit:cover;
+
+background-repeat: no-repeat;
+}
+
+#hilsa {
+
+margin-top: 0px;
+height: 300px;
+width: 420px;
+background-image: url(images/ilish.jpg);
+background-position: center;
+background-size: 300px 300px;
+object-fit:cover;
+background-repeat: no-repeat;
+}
+
+#sweets {
+
+margin-top: 0px;
+height: 300px;
+width: 420px;
+background-image: url(images/sweets.jpg);
+background-position: center;
+background-size: 300px 300px;
+object-fit:cover;
+
+background-repeat: no-repeat;
+}
+
+#ty {
+height: 200px;
+background-position: center;
+background-image: url(images/thank_you.gif);
+background-size: 250px 200px;
+background-repeat: no-repeat;
+}
+
+label {float: left; 
+width: 8em; 
+display: block;}
+input, textarea {display: block;
+margin-bottom: 0.5em;}
+
+mySubmit {margin-left: 10em;}
+
+
+table{
+width: 40%;
+border:1px solid #000000;
+border-collapse: collapse;
+}
+
+
+th{
+padding: 5px;
+border:1px solid #000000;
+}
+td{
+padding: 5px;
+border:1px solid #000000;
+text-align: center;
+}
+.text{
+text-align: center;
+}
+
+
+
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #02075D;
+  border: 1px solid #FFFFFF;
+}
+
+.nav2 li a {
+  display: block;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav2 li {
+  text-align: center;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+.nav2 li:last-child {
+  border-bottom: none;
+}
+
+.nav2 a:hover {
+  background-color: #FFFF00;
+color: #000000;
+}
+
+#srimangal{
+margin-top: 0px;
+background-image: url(images/srimangal.jpg);
+height: 500px;
+width: 1300px;
+float: left;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#lalakhal{
+margin-top: 0px;
+background-image: url(images/lalakhal.jpg);
+height: 500px;
+width: 1300px;
+float: left;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+
+#title{
+text-align: center;
+}
+
+#footerimage {
+height: 200px;
+background-position: center;
+background-image: url(images/footer.jpg);
+background-size: 250px 200px;
+
+background-repeat: no-repeat;
+}
+
+#footerimage2 {
+margin-top: 550px;
+height: 200px;
+background-position: center;
+background-image: url(images/footer.jpg);
+background-size: 250px 200px;
+
+background-repeat: no-repeat;
+}
+
+
+footer{
+font-size: 1em;
+text-align : center;
+font-style : italic;
+}
+
+@media only all and (max-width: 768px) {
+h1{height: 100%;
+font-size: 1.5em;
+padding-left: 0.3em;
+}
+#mountains{
+display:none;
+}
+
+#haleem{
+display:none;
+}
+
+#hilsa{
+display:none;
+}
+
+#sweets{
+display:none;
+}
+
+#sweets{
+display:none;
+}
+
+#language{
+display: none;
+}
+
+#lalakhal{
+display: none;
+}
+
+#srimangal{
+display: none;
+}
+
+.layout {
+  width: 100%;
+}
+
+#footerimage2 {
+margin-top: 900px;
+}
+}
